@@ -1,0 +1,337 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+} 
+
+.main-navbar {
+    background-image: url("Awan.jpg");
+    height: 70%;
+    width: 100%;
+}
+
+.h-navbar{
+    color: white;
+    display: flex;
+    justify-content: first baseline;
+    margin: 150px;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 5px;
+}
+
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-navbar {
+  overflow: hidden;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main-content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.h-content{
+    padding: 30px 0px 30px 30px;
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.img-main1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content{
+    margin: 0px 0px 80px 10px;
+    width: 350px;
+    height: 300px;
+}
+
+#myImg {
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+}
+  
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+  
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+  
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.h-content::after{
+    display: table;
+}
+
+.teks {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+    text-decoration: none;
+}
+
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(232, 232, 232);
+    margin-top: auto;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.h-footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.content{
+    display: flex;
+    min-height: auto;
+}
+
+.content1{
+    width: 600px;
+    height: auto;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+}
+
+.text1{
+    margin-top: 50px;
+}
+
+.main-text
+{
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.indo-content{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.indo-content1{
+    padding: 50px 50px 0px 50px;
+}
+
+.indo-img{
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.indomain-text{
+    margin: 0px 0px 0px 0px;
+}
+
+.indosec-text{
+    margin: 50px 0px 0px 0px;
+}
+
+.indo-text{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.indo-text1{
+    margin-top: 20px;
+    
+}
+
+.indo-text2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 300px;
+  float: right;
+  margin-left: 50px;
+  margin-bottom: auto;
+}
+
+.mySlides {
+  display: none;
+  width: 300px;
+  height: 200px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 12px;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+/* CSS for text on hover */
+.mySlides:hover .text {
+    opacity: 1;
+}
+  
+  
